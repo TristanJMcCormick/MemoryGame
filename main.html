@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" language="javascript" src="script.js"></script>
+  <title>Tristan's Memory Game</title>
+</head>
+<body>
+    <div id="wrapper">
+      <div id="grid">
+
+        <button id="btn00" onclick="guessed(this.id, this.value)" value="1"></button>
+
+        <button id="btn01" onclick="guessed(this.id, this.value)" value="2"></button>
+
+        <button id="btn02" onclick="guessed(this.id, this.value)" value="2"></button>
+
+        <button id="btn03" onclick="guessed(this.id, this.value)" value="4"></button>
+
+        <button id="btn10" onclick="guessed(this.id, this.value)" value="6"></button>
+
+        <button id="btn11" onclick="guessed(this.id, this.value)" value="3"></button>
+
+        <button id="btn12" onclick="guessed(this.id, this.value)" value="5"></button>
+
+        <button id="btn13" onclick="guessed(this.id, this.value)" value="7"></button>
+
+        <button id="btn20" onclick="guessed(this.id, this.value)" value="3"></button>
+
+        <button id="btn21" onclick="guessed(this.id, this.value)" value="1"></button>
+
+        <button id="btn22" onclick="guessed(this.id, this.value)" value="8"></button>
+
+        <button id="btn23" onclick="guessed(this.id, this.value)" value="6"></button>
+
+        <button id="btn30" onclick="guessed(this.id, this.value)" value="7"></button>
+
+        <button id="btn31" onclick="guessed(this.id, this.value)" value="8"></button>
+
+        <button id="btn32" onclick="guessed(this.id, this.value)" value="4"></button>
+
+        <button id="btn33" onclick="guessed(this.id, this.value)" value="5"></button>
+
+<!-- new tiles -->
+        <button id="newTile1" onclick="guessed(this.id, this.value)" value="9"></button>
+
+        <button id="newTile2" onclick="guessed(this.id, this.value)" value="10"></button>
+
+        <button id="newTile3" onclick="guessed(this.id, this.value)" value="9"></button>
+
+        <button id="newTile4" onclick="guessed(this.id, this.value)" value="10"></button>
+        
+      </div>
+      <div id ="gameinfo">
+        <div>
+          <img id="logo" src="AccedoImages/logo.png"/>
+        </div>
+        <label id="lblHighScore">HIGH SCORE:</label>
+        <p id="highScore">0</p>
+        <br/>
+        <br/>
+        <br/>
+        <label id="lblCurrentScore">CURRENT SCORE:</label>
+        <p id="currentScore">0</p>
+        <br/>
+        <br/>
+        <br/>
+        <button id="restart" onclick="restart()">RESTART</button>
+      </div>
+    </div>
+
+  </body>
+  </html>

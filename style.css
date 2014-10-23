@@ -1,0 +1,57 @@
+body{
+  text-align:center;
+  color:white;
+  background-image:url('images/background.gif');
+  background-repeat:repeat;
+  margin-top:5%;
+  margin-bottom:5%;
+  border-collapse:separate
+}
+button{
+  width:20%;
+  height:20%;
+  color:white;
+  margin:5px;
+  display:inline-block;
+}
+#restart{
+  width:100px;
+  height:75px;
+  background-color:red;
+  font-size:15pt;
+}
+#lblhighscore{
+  font-size:15pt;
+}
+#highscore{
+  font-size:15pt;
+}
+#wrapper{
+  margin-left:25%;
+  margin-right:25%;
+  width:720px;
+  height:576px;
+}
+#grid{
+  float:left;
+  text-align:center;
+  width:65%;
+  height:100%;
+}
+
+#gameinfo{
+  float:right;
+  width:30%;
+  height:100%;
+}
+label{
+  color:white;
+  border-top:35px;
+  border-bottom:35px;
+}
+#currentScore, #highScore{
+  font-size:15pt;
+}
+#logo{
+  padding-bottom:50px;
+}
