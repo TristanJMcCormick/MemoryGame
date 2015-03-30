@@ -9,14 +9,14 @@
 
 //The array that stores the location of the image files for easy extensibility
 var background_images = {
-  "1":"url(\"AccedoImages/colour1.gif\")",
-  "2":"url(\"AccedoImages/colour2.gif\")",
-  "3":"url(\"AccedoImages/colour3.gif\")",
-  "4":"url(\"AccedoImages/colour4.gif\")",
-  "5":"url(\"AccedoImages/colour5.gif\")",
-  "6":"url(\"AccedoImages/colour6.gif\")",
-  "7":"url(\"AccedoImages/colour7.gif\")",
-  "8":"url(\"AccedoImages/colour8.gif\")",
+  "1":"url(\"images/colour1.gif\")",
+  "2":"url(\"images/colour2.gif\")",
+  "3":"url(\"images/colour3.gif\")",
+  "4":"url(\"images/colour4.gif\")",
+  "5":"url(\"images/colour5.gif\")",
+  "6":"url(\"images/colour6.gif\")",
+  "7":"url(\"images/colour7.gif\")",
+  "8":"url(\"images/colour8.gif\")",
   "9":"url(\"images/apple.jpg\")",//added image
   "10":"url(\"images/cherry.jpeg\")"//added image
 }
@@ -53,7 +53,7 @@ function restart() {
 function  hideAllTiles(){
   var buttons = $("#grid").children("button");
   for(var i = 0;i < buttons.length;i++){
-    buttons[i].style.backgroundImage = "url('AccedoImages/card_bg.gif')";
+    buttons[i].style.backgroundImage = "url('images/card_bg.gif')";
     buttons[i].style.border="none";
   }
 }
@@ -127,7 +127,7 @@ function showTile(btnID){
 //void -- Hides a given tile
 function hideTile(btnID){
   var button = $("#" + btnID)[0];
-  button.style.backgroundImage = "url('AccedoImages/card_bg.gif')";
+  button.style.backgroundImage = "url('images/card_bg.gif')";
 }
 
 //Number -- Retuns the number of correct guesses so far
